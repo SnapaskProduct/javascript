@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-snapask",
+  "version": "0.0.1",
+  "description": "snapask's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config base.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snapask/javascript.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "snapask",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Bryan Huang <bryan.huang@snapask.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snapask/javascript/issues"
+  },
+  "homepage": "https://github.com/snapask/javascript#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
