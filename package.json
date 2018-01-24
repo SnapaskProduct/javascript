@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-snapask",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "snapask's ESLint config",
   "main": "index.js",
   "scripts": {
